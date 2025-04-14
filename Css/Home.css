@@ -111,6 +111,9 @@
 
 .container-topic{
     text-align: center;
+    font-family: 'poppin',sans-serif;
+    padding-bottom: 15px;
+    
 }
 
 .box-container{
@@ -123,7 +126,7 @@
     background-color: white;
     width: 230px;
     height: 280px;
-    border-radius: 15px;
+    border-radius: 10px;
     margin-bottom: 20px;
     padding-bottom: 20px;
     padding-top: 25px;
@@ -179,4 +182,43 @@
 .service-box:hover img.service-icon{
     filter: invert(100%);
     transition: 0.35s;
+}
+
+.container-3{
+    display: list-item;
+}
+
+.container-3 h3{
+    font-family: 'poppin',sans-serif;
+    font-weight: bold;
+}
+
+.testimonials-topic{
+    font-family: 'poppin',sans-serif;
+    font-size: 50px;
+    color: #1566fe;
+}
+
+.container-3-topic{
+    padding-left: 100px;
+}
+
+.testimonials{
+    display: flex;
+    gap: 25px;
+    padding-left: 100px;
+}
+
+.testimonials-box{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+}
+
+.testimonials-box img{
+    border-radius: 50%;
+    padding-top: 10px;
+    width: 100px;
+    height: 100px;
 }
