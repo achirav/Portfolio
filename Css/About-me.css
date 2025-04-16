@@ -75,17 +75,18 @@
 }
 
 .container img{
-    width: 750px;
+    width: 1050px;
     height: auto;
-    margin-left: 250px;
+    margin-left: 150px;
+    padding-top: 25px;
 }
 
 .container-2{
     background-color: #719ced;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background: linear-gradient(to bottom, #f8f7f2, #719ced);
-    padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #5849be;
+    padding-left: 220px;
 }
 
 .container-2 h1{
@@ -97,13 +98,15 @@
 .skillContainer{
     display: inline-block;
     justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .skill-circle{
     border-radius: 50%;
     background-color: transparent;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     border-top: 2px solid white;
     border-right: 2px solid white;
     
@@ -115,8 +118,22 @@
     filter: invert(100%);
 }
 
+.pic{
+    display: flex;
+    border-radius: 50%;
+    background-color: #6858c7;
+    width: 75px;
+    height: 75px;
+    margin-top: 20PX;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
 .skill-circle h3{
     margin-top: px;
     text-align: center;
     font-family: 'poppin',sans-serif;
 }
+
