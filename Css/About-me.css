@@ -56,49 +56,67 @@
 .container{
     padding-top: 60px;
     padding-left: 100px;
-    display: flex;
+    display: grid;
     padding-bottom: 50px;
     background-color: #f8f7f2;
-
+    background: linear-gradient(to top, #f8f7f2, #f8f7f2);
 }
 
-.container-details h1{
-    margin-bottom: 25px;
-    padding-top: 80px;
-    font-family: 'poppins',sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.container-details p{
-    margin-bottom: 25px;
+.container h3{
     font-family: 'poppin',sans-serif;
-    word-spacing: 5px;
+    text-align: center;
+    margin-left: -100px;
 }
 
-.container-details{
-    padding-right: 100px;
+.container h1{
+    font-family: 'poppin',sans-serif;
+    text-align: center;
+    margin-left: -100px;
 }
 
-.container button{
-    border-radius: 50px;
-    padding: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 15px;
-    font-weight: 150;
+.container img{
+    width: 750px;
+    height: auto;
+    margin-left: 250px;
 }
 
-.container button:hover{
-    background-color:#1566fe;
-    transition-duration: 0.5s;
-    color: white;
+.container-2{
+    background-color: #719ced;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(to bottom, #f8f7f2, #719ced);
+    padding-left: 200px;
 }
 
-.container-image img{
-    width: auto;
-    height: 300px;
-    border-radius: 20px;
-    padding-top: 100px;
-    padding-right: 150px;
+.container-2 h1{
+    font-family: 'poppin',sans-serif;
+    text-align: center;
+    margin-left: -250px;
+}
+
+.skillContainer{
+    display: inline-block;
+    justify-content: center;
+}
+
+.skill-circle{
+    border-radius: 50%;
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    
+    justify-items: center;
+    margin-right: 200px;
+}
+
+.service-icon{
+    filter: invert(100%);
+}
+
+.skill-circle h3{
+    margin-top: px;
+    text-align: center;
+    font-family: 'poppin',sans-serif;
 }
