@@ -72,6 +72,7 @@
     font-family: 'poppin',sans-serif;
     text-align: center;
     margin-left: -100px;
+    line-height: 41px;
 }
 
 .container img{
@@ -124,7 +125,7 @@
     background-color: #6858c7;
     width: 75px;
     height: 75px;
-    margin-top: 20PX;
+    margin-top: 30PX;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -132,8 +133,45 @@
 }
 
 .skill-circle h3{
-    margin-top: px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'poppin',sans-serif;
+    font-weight: 40;
+    font-size: 15px;
+}
+
+.container-3{
+    padding-bottom: 30px;
+}
+
+.container-3 h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
     font-family: 'poppin',sans-serif;
 }
 
+.education-container{
+    display: flex;
+    padding-top: 20px;
+}
+
+.container-3 hr{
+    width: 80%;
+}
+
+
+.education-content p{
+    font-family: 'poppin',sans-serif;
+    margin-left: 150px;
+    padding-left: 150px;
+    padding-top: 120px;
+    margin-right: 40px;
+    line-height: 25px;
+}
+
+.education-container img{
+    width: 400px;
+    height: auto;
+    padding-right: 300px;
+}
